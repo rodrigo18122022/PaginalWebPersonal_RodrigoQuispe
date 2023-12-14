@@ -1,0 +1,137 @@
+* {
+    
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    box-sizing: border-box;
+    background-color: #edf5c8; 
+    color: #147790;
+    text-align: justify;
+}
+
+.content {
+    min-height: 80px;
+    background: linear-gradient(
+        90deg,
+        rgb(28, 137, 147)0%,
+        rgb(156, 189, 9)70%
+    );
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: azure;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    font-size: 18px;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #DEDEDE
+}
+
+#menu {
+    display: none;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #588988; /* Texto blanco para mayor contraste en la cabecera */
+    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    padding-top: 20px;
+    color: #5C9290;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: #5C9290;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    padding-top: 10px;
+    line-height: 1.6;
+    color: #74aca4;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    padding: 0px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    box-shadow : 0 3px 6px 0 rgba(0, 0, 0, 1);
+}
+
+
+a {
+    color: #479D5E;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5C9290;
+}
+
